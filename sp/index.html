@@ -1,0 +1,55 @@
+<!-- Produced by (TAT)chaN -->
+<!-- (TAT)chaN's Start Page -->
+<html>
+<head>
+<meta name="author" content="(TAT)chaN">
+<meta name="copyright" content="(TAT)chaN">
+<title>(TAT)chaN's Start Page !!</title>
+<style type="text/css">
+input[type="button"]{
+width:90;
+height:40;
+}
+</style>
+<script type="text/javascript">
+var _gaq=_gaq||[];
+_gaq.push(['_setAccount','UA-32520755-1']);
+_gaq.push(['_trackPageview']);
+(function(){
+var ga=document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</head>
+<body onLoad="document.search.q.focus()">
+<img src="logotitle.jpg"><br><br>
+<form method=get action="https://www.google.co.jp/search" name="search">
+&emsp;Searching ...&emsp;<input type=text size=35 maxlength=255 style="font-size:17px" name="q">&emsp;[Press Enter]
+</form>
+<br>
+<HR width="950" align="left">
+<br>&emsp;Favorite Site<br><br>
+<form>
+&ensp;<input type="button" value="G Calendar" onClick="location.href='https://www.google.com/calendar/'" style="width:90;height:40;">
+&ensp;<input type="button" value="Gmail" onClick="location.href='https://mail.google.com/mail/'" style="width:90;height:40;">
+&ensp;<input type="button" value="H Diary" onClick="location.href='https://d.hatena.ne.jp/lanevok/'" style="width:90;height:40;">
+&ensp;<input type="button" value="HP" onClick="location.href='https://lanevok.com/'" style="width:90;height:40;">
+&ensp;<input type="button" value="Dropbox" onClick="location.href='http://www.dropbox.com/'" style="width:90;height:40;">
+<br><br>
+&ensp;<input type="button" value="Facebook" onClick="location.href='https://www.facebook.com/'" style="width:90;height:40;">
+&ensp;<input type="button" value="Twitter" onClick="location.href='https://twitter.com/'" style="width:90;height:40;">
+&ensp;<input type="button" value="G Map" onClick="location.href='https://www.google.co.jp/maps/?hl=ja'" style="width:90;height:40;">
+&ensp;<input type="button" value="GitHub" onClick="location.href='https://github.com/lanevok/'" style="width:90;height:40;">
+&ensp;<input type="button" value="G Drive" onClick="location.href='https://drive.google.com/drive/u/'" style="width:90;height:40;">
+</form><br>
+<br>&emsp;<span id="day"></span>
+<script type="text/javascript">
+var Birth = new Date(2010,10,19,0,0,0,0);
+var Now = new Date();
+document.getElementById("day").innerHTML = Math.ceil(((Now.getTime())-(Birth.getTime()))/86400000)+" Day";
+</script>
+<!-- <img src="http://counter.geocities.jp/ncounter.cgi?id=lan_evo_k&cn=1" ALT="Counter">-->
+<!-- Counter Start 2010/11/19 -->
+</body>
+</html>
